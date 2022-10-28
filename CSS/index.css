@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: monospace;
+
+}
+body{
+  background-image: url(../IMG/wp4468273.jpg);
+  background-size:contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menubar{
+  background-color: rgba(49,49,49,0.6);
+}
+.content h1{
+  color: white;
+  padding: 10px;
+  font-size: 32px;
+  padding-top: 50px;
+  margin-left: 460px;
+}
+ul{
+  margin: 0;
+  padding: 20px 0;
+}
+li, li a{
+  font-size: 16px;
+  float: left;
+  list-style: none;
+  color: aliceblue;
+}
+li a{
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 3px;
+}
+.tombol{
+  margin-left: 640px;
+  margin-top: 200px;
+}
+.tombol2{
+  display: none;
+}
+button{
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  position: relative;
+  top: 7px;
+  background-color: rgba(24, 204, 236, 0.3);
+  cursor: pointer;
+  box-shadow: 0 4px #999;
+}
+button:hover{
+  background-color: rgba(24, 204, 236, 1);
+  pointer-events: painted;
+  transform: translateY(4px);
+}
+#demo{
+  display: block;
+  width: 700px;
+  font-size: 24px;
+  color: aliceblue;
+  margin-left: 380px;
+  margin-top: 300px;
+  text-align: center;
+}
+#time{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%,50%);
+  color: #17d4fe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 7px;
+  font-weight: bold;
+  font-size: 50px;
+}
+#time2{
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%,50%);
+  color: #17d4fe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 7px;
+  font-weight: bold;
+  font-size: 22px;
+}

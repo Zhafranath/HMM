@@ -1,0 +1,217 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: monospace;
+  color: whitesmoke;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-image: url(../IMG/android-2160x1920-wallpaper_01274.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.menubar{
+  background-color: rgba(49,49,49,0.3);
+}
+.menubar h1{
+  color: white;
+  padding: 10px;
+  font-size: 32px;
+  padding-top: 50px;
+  margin-left: 460px;
+}
+.menubar ul{
+  margin: 0;
+  padding: 20px 0;
+}
+.menubar li, li a{
+  font-size: 16px;
+  float: left;
+  list-style: none;
+  color: aliceblue;
+}
+.menubar li a{
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 3px;
+}
+.container{
+  margin: 20px auto;
+  width: 90%;
+}
+.content{
+  background-color: rgba(240, 255, 255, 0.2);
+}
+
+.judul h1{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  padding: 20px;
+}
+.isi_content{
+  float: left;
+  margin-top: 15px;
+}
+.isi_content .kotak_kiri{
+  width: 100%;
+  height: 170px;
+  background-color: rgba(240, 255, 255, 0.2);
+}
+.kotak1 h4{
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+}
+.kotak1 p{
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: 5px;
+}
+.kotak2{
+  display: flex;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.card{
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 300px;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+.image_title{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5,5,5,0.7);
+  top: 170px;
+  transition: all 0.5s ease-in;
+}
+.image_title p{
+  text-align: center;
+  color: #fff;
+  line-height: 2px;
+  position: relative;
+  top: 80px;
+  text-shadow: 1px 1px rgba(5, 5, 5, 0.5);
+}
+
+.card:hover .image_title{
+  top:0;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+img{
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  padding: 3px;
+}
+
+.map{
+  margin-top: 470px;
+  background-color: rgba(240, 255, 255, 0.2);
+}
+.map h4{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0.2);
+}
+.isi-map{
+  display: flex;
+  padding: 7px;
+}
+.isi-map img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding: 3px;
+}
+.isi-map p{
+  display: block;
+  padding-left: 5px;
+}
+.role{
+  margin-top: 70px;
+  background-color: rgba(240, 255, 255, 0.2);
+}
+.role h4{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0.2);
+}
+.isi-role{
+  display: flex;
+  padding: 7px;
+}
+.isi-role img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding: 3px;
+}
+.isi-role p{
+  display: block;
+  padding-left: 5px;
+}
+.hero{
+  margin-top: 70px;
+  background-color: rgba(240, 255, 255, 0.2);
+}
+.hero h4{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0.2);
+}
+.isi-hero{
+  display: flex;
+  padding: 7px;
+}
+.isi-hero img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding: 3px;
+}
+.isi-hero p{
+  display: block;
+  padding-left: 5px;
+}
+.team{
+  margin-top: 70px;
+  background-color: rgba(240, 255, 255, 0.2);
+}
+.team h4{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0.2);
+}
+.isi-team{
+  display: flex;
+  padding: 7px;
+}
+.isi-team img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding: 3px;
+}
+.isi-team p{
+  display: block;
+  padding-left: 5px;
+}

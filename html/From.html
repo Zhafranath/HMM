@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Wr</title>
+    <link rel="stylesheet" href="../CSS/Form.css">
+</head>
+<body>
+    <div class="menubar">
+        <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="artikel.html">Artikel</a></li>
+        <li><a href="From.html">Hitung Winrate</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Win Rate Mobile Legend</h2>
+        <div class="content">
+            <form action="/index.js" name="form" id="forms">
+                <ul>
+                    <li><label for="name">Nickname Anda</label></li>
+                    <li><input type="text" id="name" name="name" placeholder="contoh : KyuRazz"></li>
+                    <li><label for="match">Total Match Anda</label></li>
+                    <li><input type="number" id="match" name="match" placeholder="contoh : 9852"></li>
+                    <li><label for="winrateA">Total Winrate Anda </label></li>
+                    <li><input type="number" id="winrateA" name="winrateA" placeholder="contoh : 50.5%"></li>
+                    <li><label for="winrateB">Winrate Yang Diinginkan</label></li>
+                    <li><input type="number" id="winrateB" name="winrateB" placeholder="contoh : 90.8%"></li>
+                    <input type="button" value="Hitung" id="submit">
+                </ul>
+            </form>
+            <div class="hasil">
+                <h4>Hasil</h4>
+                <p id="hasilB"></p>
+            </div>
+        </div>
+    </div>
+
+<script src="../JS/Form.js"></script>
+</body>
+</html>
